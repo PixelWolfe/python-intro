@@ -1,0 +1,21 @@
++  Addition
+-  Subtraction
+*  Multiplication
+/  Division
+** Exponentiation
+%  Modulo
+// Integer Division
+
+In python division ALWAYS results in a float!!!
+So 4/2 is equal to 2.0
+
+Integer Divison ROUNDS DOWN or floors
+So 7//3 is equal to 2
+or 6/7 is equal to 0
+
+Anytime we use a float with anything, expect a float in return
+3 - 1.0 will return 2.0
+
+----------------------------------------
+Variables
+----------------------------------------
