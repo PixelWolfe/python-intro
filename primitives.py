@@ -20,3 +20,9 @@ print(2 + 3.4) #returns 5.4
 # // Integer Division
 
 print(3-1.0)
+
+boolean = True
+print(boolean)
+
+response = input('Primitives, did that all click?')
+print(response)
