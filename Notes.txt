@@ -19,3 +19,54 @@ Anytime we use a float with anything, expect a float in return
 ----------------------------------------
 Variables
 ----------------------------------------
+
+ cannot start with numbers or have operators or punctuation in their names
+
+ can start with underscores
+
+ -------------------------
+    Data Types
+ -------------------------
+
+bool
+int
+str
+list (array)
+dict (object)
+
+--------------
+Python is Dynamically typed and Variables can change type freely
+--------------
+
+However it is not as dynamic as Javascript,
+
+Javascript -> 6 + 'hello' will return '6hello'
+Python3    -> 6 + 'hello' will return TYPE ERROR as numbers can not be added to strings 
+    and will not automatically convert into a sting like in Javascript
+
+instead of string template literals there are f-strings (formatting) so...
+
+num = 6
+f'The number is {num}!' will return 'The number is 6!'
+
+-------------------
+
+input() is similar to prompt() and will ask the user for data
+
+-----------------
+Conditionals
+-----------------
+
+Python is very white space sensitive with its conditionals!
+if 3 > 2:
+    print('The rules of the universe still apply')
+elif 2 > 3:
+    print('I am a 47 foot purple platypus bear')
+else:
+    print('How did you even get here?')
+
+-------------
+Logical Operators
+-------------
+
+AND and OR
